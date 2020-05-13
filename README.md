@@ -1,5 +1,8 @@
-# pp_project
-This is project information  for 2020 spring course software engineering 
-
+队名：西瓜与橘子
+成员：晁海燕，刘晓絮
+项目名称：四则运算
+开发语言：C语言
+开发环境：VC +6.0
 
 任务：修改 Team information 文件，按照里面的示例添加小组信息
+
