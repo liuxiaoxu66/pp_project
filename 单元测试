@@ -1,0 +1,25 @@
+#include "stdafx.h"
+#include "CppUnittest.h"
+#include "../Calculator/Calculator.h"
+ 
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+ 
+namespace UnitTest1
+{		
+	TEST_CLASS(UnitTest1)
+	{
+	public:
+		
+		TEST_METHOD(TestMethod1)
+		{
+			// TODO: 在此输入测试代码
+			Cal test;
+			int x = 4, y = 7;
+			Assert::AreEqual(11, test.add(x,y));
+			Assert::AreEqual(-3, test.sub(x, y));
+			Assert::AreEqual(28, test.mul(x, y));
+			Assert::AreEqual(0, test.div(x, y));
+		}
+ 
+	};
+}
